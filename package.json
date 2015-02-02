@@ -8,7 +8,10 @@
     "type": "git",
     "url": "https://github.com/OpenPostcodes/postcodes-node.git"
   },
-  "dependencies": {}
+  "dependencies": {
+    "object-merge": "^2.5.1",
+    "q": "^1.1.2"
+  },
   "keywords": [
     "UK",
     "Address",
