@@ -8,9 +8,17 @@
     "type": "git",
     "url": "https://github.com/OpenPostcodes/postcodes-node.git"
   },
+  "scripts": {
+    "test": "tape test/*.js",
+    "test-travis": "istanbul cover test/*.js --report lcovonly"
+  },
   "dependencies": {
     "object-merge": "^2.5.1",
     "q": "^1.1.2"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0",
+    "istanbul": "^0.3.5"
   },
   "keywords": [
     "UK",
